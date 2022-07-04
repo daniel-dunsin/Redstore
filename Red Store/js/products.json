@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "category": "T-Shirt",
+        "name": "HRX Printed T-shirt",
+        "main_image": "../../products-img/person-1.jpg",
+        "other_images": ["../../products-img/person-2.jpg", "../../products-img/person-3.jpg", "../../products-img/person-4.jpg"],
+        "price": 50.00,
+        "description": "Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with a pair of shorts for your morning workouts or denims for an evening out with the guys."
+    },
+    {
+        "id":2,
+        "category": "T-Shirt",
+        "name": "HRX Beach T-shirt",
+        "main_image": "../../products-img/cloth-1.jpg",
+        "other_images": ["../../products-img/cloth-2.jpg", "../../products-img/cloth-3.jpg", "../../products-img/cloth-4.jpg"],
+        "price": 45.00,
+        "description": "Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with a pair of shorts for your morning workouts or denims for an evening out with the guys."
+    },
+    {
+        "id":3,
+        "category": "T-Shirt",
+        "name": "HRX Golf T-shirt",
+        "main_image": "../../products-img/cloth-2-1.jpg",
+        "other_images": ["../../products-img/cloth-2-2.jpg", "../../products-img/cloth-2-3.jpg", "../../products-img/cloth-2-4.jpg"],
+        "price": 49.00,
+        "description": "Give your holiday wardrobe a style upgrade with the HRX Men's Beach T-shirt. Team it with a pair of shorts for your morning workouts or denims for an evening out with the guys."
+    },
+    {
+        "id":4,
+        "category": "Shirt",
+        "name": "HRX Casual/Office Shirt",
+        "main_image": "../../products-img/cloth-3-1.jpg",
+        "other_images": ["../../products-img/cloth-3-2.jpg", "../../products-img/cloth-3-3.jpg", "../../products-img/cloth-3-4.jpg"],
+        "price": 120.00,
+        "description": "Give your office wardrobe a style upgrade with the HRX Office Shirt set. Team it with a pair of trousers for your convinience."
+    },
+    {
+        "id":5,
+        "category": "Pants",
+        "name": "HRX Plain & Printed Pants",
+        "main_image": "../../products-img/pants-1.jpg",
+        "other_images": ["../../products-img/pants-2.jpg", "../../products-img/pants-3.jpg", "../../products-img/pants-4.jpg"],
+        "price": 45.00,
+        "description": "Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with a pair of shorts for your morning workouts or denims for an evening out with the guys."
+    },
+    {
+        "id":6,
+        "category": "Shoes",
+        "name": "HRX Sport Shoes",
+        "main_image": "../../products-img/shoe-1.jpg",
+        "other_images": ["../../products-img/shoe-2.jpg", "../../products-img/shoe-3.jpg", "../../products-img/shoe-4.jpg"],
+        "price": 59.99,
+        "description": "Give your summer wardrobe a style upgrade with the HRX Men's Active Sport Shoes. Team it with a pair of shorts and T-shirts for your morning workouts or denims for an evening out with the guys."
+    },
+    {
+        "id":7,
+        "category": "Shoes",
+        "name": "HRX Trainers",
+        "main_image": "../../products-img/shoe-2-1.jpg",
+        "other_images": ["../../products-img/shoe-2-2.jpg", "../../products-img/shoe-2-3.jpg", "../../products-img/shoe-2-4.jpg"],
+        "price": 89.99,
+        "description": "Give your summer wardrobe a style upgrade with the HRX Men's Active Trainers. Team it with a pair of shorts and T-shirts for your morning workouts or denims for an evening out with the guys."
+    },
+    {
+        "id":8,
+        "category": "Utilities",
+        "name": "HRX Utilities",
+        "main_image": "../../products-img/watch-1.jpg",
+        "other_images": ["../../products-img/watch-2.png", "../../products-img/watch-3.jpg", "../../products-img/watch-4.jpg"],
+        "price": 59.99,
+        "description": "Give your office & summer wardrobe a style upgrade with the HRX Men's Utilities which includes Headphones & Wrist-watches. Team it with a pair of shorts and T-shirts for your morning workouts or denims for an evening out with the guys."
+    }
+]

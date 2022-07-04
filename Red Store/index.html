@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width" />
+    <title>E-Commerce Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="navbar">
+          <div class="navbar-brand">
+            <a href="index.html"
+              ><img src="images/logo.png" width="125px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="./html/product.html">Product</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="./html/account.html">Account</a></li>
+            </ul>
+          </nav>
+          <div class="cart-icon">
+            <a href="./html/cart.html">
+              <img src="images/cart.png" width="30px" height="30px" />
+              <div class="cart-count">0</div>
+            </a>
+          </div>
+          <img src="images/menu.png" class="menu-icon" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Give your workout <br />a new style!</h1>
+            <p>
+              Success isn't about greatness, it's about consistency. Consistent
+              <br />hardwork gains success. Greatness will come.
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/image1.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--featured categories-->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3"><img src="images/category-1.jpg" /></div>
+          <div class="col-3"><img src="images/category-2.jpg" /></div>
+          <div class="col-3"><img src="images/category-3.jpg" /></div>
+        </div>
+      </div>
+    </div>
+
+    <!--featured products-->
+    <div class="small-container">
+      <h1 class="title">Featured Products</h1>
+      <div class="row">
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/person-1.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/cloth-1.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>Red Printed T-shirt</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/shoe-2.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/hrxSportShoe.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Sport Shoes</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+          <p>$59.99</p>
+        </div>
+
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/pants-3.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/hrxPants.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Grey Trackpants</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$45.00</p>
+        </div>
+
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/cloth-1.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/cloth-2.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Beach T-shirt</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$45.00</p>
+        </div>
+      </div>
+
+      <!--latest products-->
+      <h1 class="title">Latest Products</h1>
+      <div class="row">
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/shoe-2-3.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/hrxTrainers.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Trainers</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$89.99</p>
+        </div>
+
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/cloth-2-1.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/cloth-3.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Golf T-shirt</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$49.00</p>
+        </div>
+
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/cloth-3-2.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/cloth-4.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Casual/Office Shirt</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$120.00</p>
+        </div>
+
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/watch-1.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/hrxWatch.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Utilities</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$59.99</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/watch-3.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/hrxWatch.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Utilities</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$59.99</p>
+        </div>
+
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/shoe-2-4.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/hrxTrainers.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Trainers</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$89.99</p>
+        </div>
+
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/shoe-3.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/hrxSportShoe.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Spost Shoes</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$59.99</p>
+        </div>
+
+        <div class="col-4">
+          <div class="product-img-container">
+            <img src="products-img/pants-1.jpg" alt="" />
+            <div class="hover-text">
+              <a href="html/products/hrxPants.html">
+                <div class="icon-container">
+                  <i class="fa fa-link"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <h3>HRX Black Trackpants</h3>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>$45.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!--------------Offer---------------->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/exclusive.png" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on RedStore</p>
+            <h1>Smart Band 4</h1>
+            <small
+              >The Mi Smart Band 4 features a 39.9% larger(than Mi Band 3),
+              AMOLED color full-touch display and adjustable brightness so that
+              everything is clear as can be.
+            </small>
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----comments------>
+    <div class="reviews">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum is a simple dummy text of the printing and typesetting
+              industry. Lorem Ipsum has the industry standard dummy text ever.
+            </p>
+            <div class="ratings">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <img src="images/user-1.png" />
+            <h4>Sean Parker</h4>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum is a simple dummy text of the printing and typesetting
+              industry. Lorem Ipsum has the industry standard dummy text ever.
+            </p>
+            <div class="ratings">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <img src="images/user-2.png" />
+            <h4>Mike Smith</h4>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem ipsum is a simple dummy text of the printing and typesetting
+              industry. Lorem Ipsum has the industry standard dummy text ever.
+            </p>
+            <div class="ratings">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-alt"></i>
+            </div>
+            <img src="images/user-3.png" />
+            <h4>Mabel Joe</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------Brands----------->
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="images/logo-godrej.png" alt="" />
+          </div>
+          <div class="col-5"><img src="images/logo-oppo.png" alt="" /></div>
+          <div class="col-5">
+            <img src="images/logo-coca-cola.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-paypal.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/logo-philips.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----footer-->
+    <div class="footer">
+      <div class="row">
+        <div class="first-col">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and ios mobile phone</p>
+          <img src="images/play-store.png" width="150px" />
+          <img src="images/app-store.png" width="150px" />
+        </div>
+        <div class="second-col">
+          <img src="images/logo.png" width="170px" />
+          <p>
+            Our Purpose Is To Sustainably Make The Pleasure And Benefit Of
+            Sports Accessible To Many.
+          </p>
+        </div>
+        <div class="third-col">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="fourth-col">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <h4>Copyright 2020-Adejare Daniel</h4>
+    </div>
+
+    
+    <script type="module" src="js/script.js"></script>
+
+  </body>
+</html>
